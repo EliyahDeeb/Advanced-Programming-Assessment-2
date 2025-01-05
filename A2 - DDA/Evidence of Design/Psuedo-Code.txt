@@ -1,0 +1,43 @@
+BEGIN
+
+Prompt the user: "Enter Pokémon name or ID:"
+
+Get the user’s input and store it in user_input.
+
+Check if the input is empty:
+
+If user_input is empty:
+Display a message: "Please enter a Pokémon name or ID."
+Exit the program.
+Fetch data from PokeAPI using the entered user_input.
+
+Check if the data is valid:
+
+If the data is valid:
+
+Extract the following information:
+
+Pokémon's name
+Pokémon's ID
+Pokémon's types (e.g., Fire, Water)
+Pokémon’s height and weight
+Pokémon’s stats (e.g., HP, Attack, Defense, Speed)
+Pokémon's abilities
+Pokémon's sprite (image)
+
+Display the Pokémon information:
+
+Show Pokémon name
+Show Pokémon ID
+Show Pokémon types
+Show Pokémon height
+Show Pokémon weight
+Show Pokémon stats (HP, Attack, Defense, Speed)
+Show Pokémon abilities
+Show Pokémon sprite image
+Generate a gradient background based on the Pokémon’s types and display it.
+
+If the data is not valid:
+
+Display a message: "Pokémon not found or invalid input."
+END
